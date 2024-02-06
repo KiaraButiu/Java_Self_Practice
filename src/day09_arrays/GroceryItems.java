@@ -1,7 +1,5 @@
 package day09_arrays;
 
-import java.util.Arrays;
-
 public class GroceryItems {
     public static void main(String[] args) {
         String[][] items = {
