@@ -14,8 +14,8 @@ public class MoveTheZeroes {
 
         for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
             zero[j] = array[i];
-            System.out.print(zero[j] + " ");
         }
+        System.out.println(Arrays.toString(zero));
     }
 }
 

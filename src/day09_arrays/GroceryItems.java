@@ -1,15 +1,18 @@
 package day09_arrays;
 
+import java.util.Arrays;
+
 public class GroceryItems {
     public static void main(String[] args) {
         String[][] items = {
-                {"Apple", "Banana", "Grape", "Avocado"},
-                {"Paper Towels", "Toilet Papers", "Tissues", "Diapers"},
-                {"Coke", "Fanta", "Arizona Tea", "Pepsi", "Water"}
+// Array Index:                     0                                                   1                                                   2
+                {"Apple", "Banana", "Grape", "Avocado"}, {"Paper Towels", "Toilet Papers", "Tissues", "Diapers"}, {"Coke", "Fanta", "Arizona Tea", "Pepsi", "Water"}
+// Element Index:   0         1         2       3               0                  1            2          3          0        1          2           3        4
         };
-        for (String[] item : items) {
-            for (String item2 : item) {
-                System.out.print(item2 + "\t");
+
+        for (String[] each : items) {           // Array index
+            for (String item : each) {          // each element index
+                System.out.print(item + "\t");
             }
             System.out.println();
         }
@@ -32,8 +35,9 @@ public class GroceryItems {
 
         }
 
+        }
     }
-}
+
 
 /* Create a class named GroceryItems and write a program with the following specifications:
     10.1 Given the following array:

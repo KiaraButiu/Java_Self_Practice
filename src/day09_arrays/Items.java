@@ -12,15 +12,17 @@ public class Items {
 
 //  5.2 Find the first index number of "Gloves".
 //        Arrays.sort(items);
-//        System.out.println(Arrays.toString(items));
+//      System.out.println(Arrays.toString(items));
         System.out.println(Arrays.binarySearch(items, "Gloves"));
 
 //  5.3 Check if "iPad" is contained in the item list.
-        String hasItem = "iPad";
+        String hasItem = "spoon";
 
         for (String i : items) {
             if (i.equalsIgnoreCase(hasItem)) {
                 System.out.println(hasItem + " is contained in the item list");
+            }else{
+                System.out.println("does not contain item");
             }
         }
 
