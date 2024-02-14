@@ -5,10 +5,10 @@ public class UpperAndLowerCase {
 
         String str = "JAVA java";
 
-        int upperCase = 0;
+        int upperCase = 0;                 // to get number of character
         int lowerCase = 0;
 
-        for (char ch : str.toCharArray()) {
+        for (char ch : str.toCharArray()) {     // used to get the length: returns how many elements in a string
             if (Character.isUpperCase(ch)){
                 upperCase++;
 
@@ -16,8 +16,9 @@ public class UpperAndLowerCase {
                 lowerCase++;
             }
         }
-        boolean isEqualChar = upperCase == lowerCase;
-        System.out.println(isEqualChar);
+       // boolean isEqualChar = upperCase == lowerCase;
+
+        System.out.println(upperCase == lowerCase);
     }
 }
 /* Create a class called UpperCaseAndLowerCase and write a program with the following specifications:

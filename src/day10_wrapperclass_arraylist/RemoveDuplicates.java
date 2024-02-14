@@ -11,11 +11,11 @@ public class RemoveDuplicates {
         ArrayList <Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1,1,2,2,3,3,4,4,5,6,7));
 
-        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<>();      // empty
 
         for (Integer i : list) {    // i = each element
-            if (!result.contains(i)){
-                result.add(i);
+            if (!result.contains(i)){       // checks if the current list does not contain i
+                result.add(i);              // add i to the result list
             }
         }
         System.out.println(result);

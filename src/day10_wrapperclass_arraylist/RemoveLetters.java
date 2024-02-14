@@ -9,6 +9,7 @@ public class RemoveLetters {
         ArrayList <Character> list = new ArrayList<>(Arrays.asList('$', 'A', 'B', '1', '2', 'c', 'd', '@', '!', '3', '4'));
 
         for (int i = 0; i < list.size(); i++) {
+
             char ch = list.get(i);
             if (Character.isLetter(ch)){
                 list.remove(i);
