@@ -13,7 +13,7 @@ public class RemoveDuplicates {
 
         ArrayList<Integer> result = new ArrayList<>();      // empty
 
-        for (Integer i : list) {    // i = each element
+        for (Integer i : list) {             // i = each element
             if (!result.contains(i)){       // checks if the current list does not contain i
                 result.add(i);              // add i to the result list
             }

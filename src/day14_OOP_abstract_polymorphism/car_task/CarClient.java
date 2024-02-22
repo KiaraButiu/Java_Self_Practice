@@ -48,7 +48,8 @@ public class CarClient {
         System.out.println(cydeoCar.getModel() + " has fly-mode: " + CydeoCar.hasAutoPilot);
         System.out.println(cydeoCar);
 
-
+Honda honda1 = new Honda(null," ", 2016, 123, "Red");
+        System.out.println(honda1);
 
 
     }
