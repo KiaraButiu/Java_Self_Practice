@@ -13,7 +13,7 @@ public class FrequencyOfCharacters {
         for (char each : str.toCharArray()) {       // to access each character
 
             if (output.containsKey(each)){                 // if map contains character
-                output.put(each, output.get(each) + 1);     // add each same character if it contains
+                output.put(each, output.get(each) + 1);     // add each same character value if it contains
             }else{
                 output.put(each, 1);                    // else each character value remains 1
             }
