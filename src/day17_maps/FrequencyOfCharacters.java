@@ -8,17 +8,17 @@ public class FrequencyOfCharacters {
 
        String str = "bbcccaaaaa";
 
-       Map<Character, Integer> output = new LinkedHashMap<>();
+       Map<Character, Integer> map = new LinkedHashMap<>();
 
-        for (char each : str.toCharArray()) {       // to access each character
+        for (char each : str.toCharArray()) {               // to access each character
 
-            if (output.containsKey(each)){                 // if map contains character
-                output.put(each, output.get(each) + 1);     // add each same character value if it contains
+            if (map.containsKey(each)){                 // if map contains character
+                map.put(each, map.get(each) + 1);     // add each same character value if it contains
             }else{
-                output.put(each, 1);                    // else each character value remains 1
+                map.put(each, 1);                    // else each character value remains 1
             }
         }
-        System.out.println(output);
+        System.out.println(map);
     }
 
 }

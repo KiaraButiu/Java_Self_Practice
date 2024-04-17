@@ -10,10 +10,11 @@ public class MultiplyOddNumbers {
         System.out.println(list);
 
 
-        for (int i = 0; i < list.size(); i++) {
-           int number = list.get(i);
-           if (list.get(i) % 2 != 0){
-               list.set(i,number *= 2);
+        for (int i = 0; i < list.size(); i++) {         //to access each number index
+           int number = list.get(i);                    // to get each index number
+
+           if (number % 2 != 0){            // if number is Odd
+               list.set(i, number *= 2);     // update, index number and old element
            }
         }
         System.out.println(list);

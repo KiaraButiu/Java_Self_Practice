@@ -1,6 +1,6 @@
 package day04_selection_statements.IfStatementLabs;
 
-public class FINDRA {
+public class FINRA {
     public static void main(String[] args) {
         int number = 15;
 
